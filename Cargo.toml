@@ -1,0 +1,10 @@
+[package]
+name = "rocket_template_dir"
+version = "0.1.0"
+authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+rocket = "0.4"
+rocket_contrib = { version = "0.4", features = ["handlebars_templates"] }
